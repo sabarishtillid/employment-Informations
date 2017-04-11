@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="a55538ec-31ca-42a8-8199-d4dc23c6593f" Scope="Site" Title="EmployeeInformations Feature1">
+  <ElementManifests>
+    <ElementManifest Location="EmployeeInfoCreation\Elements.xml" />
+    <ElementFile Location="EmployeeInfoCreation\EmployeeInfo.webpart" />
+    <ElementManifest Location="EmployeeInforetrieve\Elements.xml" />
+    <ElementFile Location="EmployeeInforetrieve\EmployeeInforetrieve.webpart" />
+  </ElementManifests>
+</Feature>

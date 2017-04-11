@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="6db3ea3d-b9fb-4c66-9102-5582e1b01d05" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="EmployeeInformations.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="EmployeeInformations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0de36ce67980b933" Namespace="EmployeeInformations.EmployeeInfo" TypeName="*" />
+        <SafeControl Assembly="EmployeeInformations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0de36ce67980b933" Namespace="EmployeeInformations.EmployeeInforetrieve" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\EmployeeInformations\css\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\EmployeeInformations\css\tab.css" />
+    <TemplateFile Location="Layouts\EmployeeInformations\css\main.css" />
+    <TemplateFile Location="Layouts\EmployeeInformations\images\logo.png" />
+    <TemplateFile Location="Layouts\EmployeeInformations\images\placeholder.png" />
+    <TemplateFile Location="Layouts\EmployeeInformations\js\bootstrap.min.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="EmployeeInformations_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
